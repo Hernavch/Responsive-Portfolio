@@ -2,6 +2,7 @@ body{
     background-color:#ffffff;
     background-image:url("https://raw.githubusercontent.com/Hernavch/bootcampnov2/master/assets/images/stripes-light.png");
     font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
         
 }
 h1{
@@ -9,6 +10,7 @@ h1{
 }
 h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 header{
     background-color: #ffffff;
@@ -56,7 +58,7 @@ ul li {
     text-align: right;
     padding-right: 75px;
     color: #777777;
-    font-size: 18pt;
+    font-size: 16px;
     border-left: 2px;
     border-color:#777777;
         
@@ -250,8 +252,10 @@ footer{
 
   /* Media Screen */
 
-  @media screen and (max-width:640px){
-
+  @media screen and (max-width:707px){
+/* body{
+    width:100px
+} */
     header{
         margin:0px;
     }
@@ -261,6 +265,7 @@ footer{
           margin:0px;
           margin-left:-1px;
           text-align: center;
+          line-height:41px;
       }
       .main_menu{
           width:100%;
@@ -288,11 +293,23 @@ footer{
       
 
       .container{
-          max-width:640px;
+          width:100%;
           margin-top:100px;
-          margin-left:0px;
+          margin-left:-5px;
           margin-right:0px;
           
       }
   }
-  
+  @media screen and (max-width:768px){
+      .name{
+          margin-left:2px;
+          
+      }
+      .main_menu{
+         margin-right:0px; 
+      }
+      .container{
+          margin-left:10px;
+          margin-right:10px;
+      }
+  }
