@@ -1,0 +1,248 @@
+body{
+    background-color:#ffffff;
+    background-image:url("https://raw.githubusercontent.com/Hernavch/bootcampnov2/master/assets/images/stripes-light.png");
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+h1{
+    color:#ffffff;
+}
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #ffffff;
+    position: relative;
+    top:0;
+    left:0;
+    height: 80px;
+    margin:0px;
+    
+  
+    width:100%;
+      /*border*/
+
+    border-bottom:solid;
+    border-color:#777777;
+    border-width:thin;
+ 
+}
+.main_menu {
+    /* position: absolute; */
+    /* right:2px; */
+    /* margin-bottom:0px; */
+    float:right;
+    /* height:80px; */
+    margin-top:30px;
+    margin-right:160px;
+    
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    padding:20px;
+    background-color:#ffffff;
+    position: relative;
+    bottom:20px;
+}
+
+ul li {
+    display: inline;
+    text-align: right;
+    padding-right: 75px;
+    color: #777777;
+    font-size: 18pt;
+    border-left: 2px;
+    border-color:#777777;
+        
+}
+.name{
+    /*text-align: left;*/
+    /* display: inline; */
+    float: left;
+    background-color:#4aaaa5;
+    padding:20px;
+    color:#ffffff;
+    margin-left:20%;
+    margin-top:0px;
+    margin-bottom:2px;
+    /* position: absolute; */
+    /* left:0; */
+      
+    
+
+}
+
+.clearfix {
+    overflow:auto;
+}
+
+.container{
+    background-color:#ffffff;
+    /* padding-block-end: 90px; */
+    /* margin-left:150px;
+    margin-right:150px; */
+    margin-top: 5%;
+    margin-bottom:10%;
+    margin-left:20%;
+    margin-right:20%;
+    padding-bottom: 0px;
+    padding:30px;
+}
+
+.main-image{
+    height: 200px;
+    width: 200px;
+}   
+
+/*.container{
+background-color:yellowgreen;
+float:center;
+border-bottom: solid;
+border-color: #777777;
+margin:90px;
+margin-top: 150px;
+
+
+
+}
+*/
+h2 {
+    color:#4aaaa5;
+    /*border*/
+    
+    border-color:#888888;
+    border-bottom:solid;
+    /* border-block-end-width: 20px; */
+    border-length: 80%;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: left;
+    display:block;
+    color:#777777;
+    margin:5%;
+
+
+}
+ .main-bio{
+    margin-bottom:20px;
+    /* border-bottom:solid;
+    border-color:#777777;
+    border-width: thin; */
+} 
+.main-image {
+ float:left;
+ margin-right:20px;
+ padding-bottom:5px;
+ padding-left:25px;
+}
+
+
+footer{
+    background-color: #666666;
+    position: fixed;
+    bottom:0;
+    left:0;
+    height: 50px;
+    
+    text-align: center;
+    width:100%;
+   color:#ffffff;
+    /*border*/
+
+    border-top:solid;
+    border-color: teal;
+    border-width:thick;
+
+
+}
+
+   /*CONACT FORM*/
+
+   input, select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border-width: thin;
+    border-style: solid;
+    border-color:#777777; 
+    border-radius: 0px;  
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  [type=submit] {
+    background-color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18;
+    font-weight: bold;
+
+    width:150px;
+    color: white;
+    padding: 12px 20px;
+    /* border: none;
+    border-radius: 4px; */
+    
+  }
+  
+ 
+   .contactform {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin:0px;
+  }
+/* contact me form end */
+
+  /* Portfolio page */
+
+.banner{
+    padding: 20px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#ffffff;
+    width:160px;
+    position: absolute;
+    bottom:20px;
+    text-align: center;
+}
+.row{
+    display:flex;
+    width:100px;
+    flex: wrap;
+    margin:0;
+    justify-content: space-between;
+
+}
+
+.column{
+    flex: 20px;
+    /* margin-bottom: 1; */
+    position: relative;
+    margin:10px;
+    /* margin-left:20px; */
+    padding:10px;
+    
+
+}
+
+
+  /* Portfolio images */
+
+    .sunset{
+      width:200px;
+      height:200px;
+  }
+  .dog{
+       width:200px;
+       height:200px; 
+  }
+  
