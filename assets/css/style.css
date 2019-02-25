@@ -1,9 +1,10 @@
 body{
     background-color:#ffffff;
-    background-image:url("../images/always_grey.png");
+    background-image:url("../images/sunset2.jpg");
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family: 'Josefin Slab', serif; */
     font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Frank Ruhl Libre', serif; */
     font-size:18px;
         
 }
@@ -12,8 +13,10 @@ h1{
 }
 h1, h2{
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    /* font-family: 'Josefin Slab', serif; */
-    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Josefin Slab', sans-serif; */
+    /* font-family: 'Frank Ruhl Libre', serif; */
+    font-family: 'Playfair Display SC', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     font-size: 22px;
 }
 header{
@@ -219,16 +222,28 @@ footer{
 
 .banner{
     padding: 20px;
-    background-color: #14CC60;
+    background-color:#119DA4;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    /* font-family: 'Playfair Display SC', serif; */
-    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Playfair Display SC', serif;
+    /* font-family: 'Frank Ruhl Libre', serif; */
     font-weight: bold;
-    color:#315659;
+    color:#ECE4B7;
     width:260px;
+    height:20px;
     position: absolute;
     bottom:30px;
     text-align: center;
+
+    border-top:thin;
+    border-bottom:thin;
+    border-bottom:solid;
+    border-top:solid;
+    border-bottom-width: thick;
+    border-top-width: thick;
+    border-color: #14CC60;
+    
+    
+    /* border-color: #14CC60; */
 }
 .row{
     display:flex;
@@ -260,6 +275,7 @@ footer{
   .dog{
        width:300px;
        height:200px; 
+       border-radius:2px;
   }
 
 
