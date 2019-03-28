@@ -76,6 +76,10 @@ ul li {
 p{
     font-family: 'Frank Ruhl Libre', serif;
 }
+.links{
+    float: left;
+    margin-top: 0px;
+}
 .name{
     /*text-align: left;*/
     /* display: inline; */
